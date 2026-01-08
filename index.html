@@ -628,8 +628,8 @@
                     
                     const parts = gregorianInput.split('-');
                     gregorianDate = new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
-                    
-                    const jal = jalaali.toJalaali(gregorianDate);
+
+                    const jal = jalaali.toJalaali(gregorianDate.getFullYear(), gregorianDate.getMonth() + 1, gregorianDate.getDate());
                     jalaaliYear = jal.jy;
                     jalaaliMonth = jal.jm;
                     jalaaliDay = jal.jd;
