@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourusername.github.io/shahanshahi-calendar/sitemap.xml
+Sitemap: https://rwin13.github.io/shahanshahi-calendar/sitemap.xml
